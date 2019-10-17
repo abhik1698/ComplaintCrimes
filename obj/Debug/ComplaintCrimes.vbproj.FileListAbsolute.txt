@@ -1,0 +1,35 @@
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\bin\Debug\ComplaintCrimes.exe.config
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\bin\Debug\ComplaintCrimes.exe
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\bin\Debug\ComplaintCrimes.pdb
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\bin\Debug\ComplaintCrimes.xml
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\bin\Debug\MySql.Data.dll
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\bin\Debug\Google.Protobuf.dll
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\bin\Debug\MySql.Data.xml
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.vbprojAssemblyReference.cache
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.Home.resources
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.Resources.resources
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.vbproj.GenerateResource.cache
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.vbproj.CoreCompileInputs.cache
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.vbproj.CopyComplete
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.exe
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.xml
+C:\Users\Abhi\source\repos\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.pdb
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\bin\Debug\ComplaintCrimes.exe.config
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\bin\Debug\ComplaintCrimes.exe
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\bin\Debug\ComplaintCrimes.pdb
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\bin\Debug\ComplaintCrimes.xml
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\bin\Debug\MySql.Data.dll
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\bin\Debug\Google.Protobuf.dll
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\bin\Debug\MySql.Data.xml
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.vbprojAssemblyReference.cache
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.Home.resources
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.Resources.resources
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.vbproj.GenerateResource.cache
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.vbproj.CoreCompileInputs.cache
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.vbproj.CopyComplete
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.exe
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.xml
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.pdb
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.RegisterComplaints.resources
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.Login.resources
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.SignUp.resources
