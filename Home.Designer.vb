@@ -29,6 +29,8 @@ Partial Class Home
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -74,7 +76,7 @@ Partial Class Home
         Me.Label1.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label1.Location = New System.Drawing.Point(287, 75)
+        Me.Label1.Location = New System.Drawing.Point(291, 63)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(232, 20)
         Me.Label1.TabIndex = 3
@@ -116,6 +118,32 @@ Partial Class Home
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Police Department"
         '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(816, 59)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(227, 50)
+        Me.Button3.TabIndex = 7
+        Me.Button3.Text = "Criminals Alert Map"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(917, 443)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(115, 50)
+        Me.Button4.TabIndex = 8
+        Me.Button4.Text = "About us"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
         'Home
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -123,6 +151,8 @@ Partial Class Home
         Me.BackgroundImage = Global.ComplaintCrimes.My.Resources.Resources.homeBG
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1067, 554)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -145,4 +175,6 @@ Partial Class Home
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
 End Class

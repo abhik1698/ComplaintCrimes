@@ -74,6 +74,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMap.Designer.vb">
+      <DependentUpon>CMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CriminalHistory.Designer.vb">
       <DependentUpon>CriminalHistory.vb</DependentUpon>
     </Compile>
@@ -135,6 +147,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMap.resx">
+      <DependentUpon>CMap.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CriminalHistory.resx">
       <DependentUpon>CriminalHistory.vb</DependentUpon>
     </EmbeddedResource>
@@ -189,6 +207,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="src\CHistoryBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\aboutBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\CMapBG.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

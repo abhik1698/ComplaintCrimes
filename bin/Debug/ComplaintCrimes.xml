@@ -22,6 +22,11 @@ ComplaintCrimes
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:ComplaintCrimes.My.Resources.Resources.aboutBG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ComplaintCrimes.My.Resources.Resources.CHistoryBG">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -33,6 +38,11 @@ ComplaintCrimes
 </summary>
 </member>
 <member name="P:ComplaintCrimes.My.Resources.Resources.CHistoryBG2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ComplaintCrimes.My.Resources.Resources.CMapBG">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

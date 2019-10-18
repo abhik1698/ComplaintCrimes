@@ -36,3 +36,5 @@ D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\
 D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.xml
 D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.pdb
 D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.GivenComplaints.resources
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.About.resources
+D:\Repository\Team\BCA projects\Crime\ComplaintCrimes\ComplaintCrimes\obj\Debug\ComplaintCrimes.CMap.resources

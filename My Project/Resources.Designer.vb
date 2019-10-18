@@ -63,6 +63,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property aboutBG() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("aboutBG", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property CHistoryBG() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("CHistoryBG", resourceCulture)
@@ -86,6 +96,16 @@ Namespace My.Resources
         Friend ReadOnly Property CHistoryBG2() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("CHistoryBG2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property CMapBG() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("CMapBG", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
