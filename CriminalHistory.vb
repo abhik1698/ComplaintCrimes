@@ -88,4 +88,8 @@ Public Class CriminalHistory
         End Try
         conn.Close()
     End Sub
+
+    Private Sub searchText_TextChanged(sender As Object, e As EventArgs) Handles searchText.TextChanged
+
+    End Sub
 End Class

@@ -6,7 +6,7 @@ Public Class SignUp
     End Sub
 
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim qry As String = "insert into users(uname, name, pwd) values('" & uname.Text & "', '" & pwd.Text & "', '" & fname.Text & "')"
+        Dim qry As String = "insert into users(uname, name, pwd) values('" & uname.Text & "', '" & fname.Text & "', '" & pwd.Text & "')"
 
         Try
             Dim conn As New MySql.Data.MySqlClient.MySqlConnection("server=127.0.0.1;uid=root;port=3306;database=crime")

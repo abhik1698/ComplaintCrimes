@@ -31,31 +31,34 @@ Partial Class Login
         '
         'uname
         '
-        Me.uname.Location = New System.Drawing.Point(379, 116)
+        Me.uname.Location = New System.Drawing.Point(557, 326)
         Me.uname.Name = "uname"
         Me.uname.Size = New System.Drawing.Size(100, 22)
         Me.uname.TabIndex = 0
         '
         'pwd
         '
-        Me.pwd.Location = New System.Drawing.Point(379, 176)
+        Me.pwd.Location = New System.Drawing.Point(557, 392)
         Me.pwd.Name = "pwd"
+        Me.pwd.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.pwd.Size = New System.Drawing.Size(100, 22)
         Me.pwd.TabIndex = 1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(379, 250)
+        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(694, 348)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(126, 46)
+        Me.Button1.Size = New System.Drawing.Size(95, 63)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Login"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(288, 181)
+        Me.Label2.Location = New System.Drawing.Point(554, 365)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(69, 17)
         Me.Label2.TabIndex = 9
@@ -64,7 +67,7 @@ Partial Class Login
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(288, 116)
+        Me.Label1.Location = New System.Drawing.Point(554, 293)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(73, 17)
         Me.Label1.TabIndex = 8
@@ -74,12 +77,15 @@ Partial Class Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.ComplaintCrimes.My.Resources.Resources.LoginBG
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.pwd)
         Me.Controls.Add(Me.uname)
+        Me.DoubleBuffered = True
         Me.Name = "Login"
         Me.Text = "Login with Credentials"
         Me.ResumeLayout(False)

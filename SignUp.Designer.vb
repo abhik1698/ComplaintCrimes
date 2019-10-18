@@ -33,38 +33,40 @@ Partial Class SignUp
         '
         'uname
         '
-        Me.uname.Location = New System.Drawing.Point(217, 164)
+        Me.uname.Location = New System.Drawing.Point(537, 275)
         Me.uname.Name = "uname"
         Me.uname.Size = New System.Drawing.Size(100, 22)
         Me.uname.TabIndex = 0
         '
         'fname
         '
-        Me.fname.Location = New System.Drawing.Point(374, 164)
+        Me.fname.Location = New System.Drawing.Point(537, 333)
         Me.fname.Name = "fname"
         Me.fname.Size = New System.Drawing.Size(100, 22)
         Me.fname.TabIndex = 1
         '
         'pwd
         '
-        Me.pwd.Location = New System.Drawing.Point(526, 164)
+        Me.pwd.Location = New System.Drawing.Point(537, 389)
         Me.pwd.Name = "pwd"
         Me.pwd.Size = New System.Drawing.Size(100, 22)
         Me.pwd.TabIndex = 3
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(335, 254)
+        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(660, 345)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(179, 65)
+        Me.Button1.Size = New System.Drawing.Size(128, 65)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "Register"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(523, 119)
+        Me.Label2.Location = New System.Drawing.Point(538, 368)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(69, 17)
         Me.Label2.TabIndex = 9
@@ -73,7 +75,7 @@ Partial Class SignUp
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(214, 119)
+        Me.Label1.Location = New System.Drawing.Point(534, 245)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(73, 17)
         Me.Label1.TabIndex = 8
@@ -82,7 +84,7 @@ Partial Class SignUp
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(371, 119)
+        Me.Label3.Location = New System.Drawing.Point(534, 313)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(45, 17)
         Me.Label3.TabIndex = 10
@@ -92,6 +94,8 @@ Partial Class SignUp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.ComplaintCrimes.My.Resources.Resources.LoginBG
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -100,6 +104,7 @@ Partial Class SignUp
         Me.Controls.Add(Me.pwd)
         Me.Controls.Add(Me.fname)
         Me.Controls.Add(Me.uname)
+        Me.DoubleBuffered = True
         Me.Name = "SignUp"
         Me.Text = "SignUp"
         Me.ResumeLayout(False)

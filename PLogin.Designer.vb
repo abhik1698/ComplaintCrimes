@@ -31,23 +31,27 @@ Partial Class PLogin
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(337, 269)
+        Me.Button1.BackColor = System.Drawing.SystemColors.HotTrack
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button1.Location = New System.Drawing.Point(643, 185)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(126, 46)
+        Me.Button1.Size = New System.Drawing.Size(131, 49)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Login"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'pwd
         '
-        Me.pwd.Location = New System.Drawing.Point(337, 195)
+        Me.pwd.Location = New System.Drawing.Point(657, 143)
         Me.pwd.Name = "pwd"
+        Me.pwd.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.pwd.Size = New System.Drawing.Size(100, 22)
         Me.pwd.TabIndex = 4
         '
         'uname
         '
-        Me.uname.Location = New System.Drawing.Point(337, 135)
+        Me.uname.Location = New System.Drawing.Point(657, 83)
         Me.uname.Name = "uname"
         Me.uname.Size = New System.Drawing.Size(100, 22)
         Me.uname.TabIndex = 3
@@ -55,18 +59,22 @@ Partial Class PLogin
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(235, 139)
+        Me.Label1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(654, 62)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(73, 17)
+        Me.Label1.Size = New System.Drawing.Size(85, 18)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Username"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(235, 200)
+        Me.Label2.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(654, 122)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(69, 17)
+        Me.Label2.Size = New System.Drawing.Size(83, 18)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "Password"
         '
@@ -74,6 +82,8 @@ Partial Class PLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.ComplaintCrimes.My.Resources.Resources.GivenBG1
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)

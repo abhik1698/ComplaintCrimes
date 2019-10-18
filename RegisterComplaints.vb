@@ -1,7 +1,7 @@
 ﻿Public Class RegisterComplaints
     Private Sub RegisterComplaints_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim User = Login.uname.Text
-        Label1.Text = "Welcome " & User & ", thank for your interest." & vbCrLf & " Please do fill in these Details about the Crime Witnessed!"
+        Label1.Text = "Welcome " & User & ", thanks for your interest." & vbCrLf & " Please do fill in these Details about the Crime Witnessed!"
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click

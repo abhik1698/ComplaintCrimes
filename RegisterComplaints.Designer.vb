@@ -36,14 +36,14 @@ Partial Class RegisterComplaints
         '
         'cname
         '
-        Me.cname.Location = New System.Drawing.Point(246, 154)
+        Me.cname.Location = New System.Drawing.Point(392, 143)
         Me.cname.Name = "cname"
         Me.cname.Size = New System.Drawing.Size(100, 22)
         Me.cname.TabIndex = 0
         '
         'crimeb
         '
-        Me.crimeb.Location = New System.Drawing.Point(246, 206)
+        Me.crimeb.Location = New System.Drawing.Point(392, 197)
         Me.crimeb.Name = "crimeb"
         Me.crimeb.Size = New System.Drawing.Size(100, 22)
         Me.crimeb.TabIndex = 1
@@ -51,6 +51,7 @@ Partial Class RegisterComplaints
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label1.Font = New System.Drawing.Font("Monotype Corsiva", 13.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(46, 27)
         Me.Label1.Name = "Label1"
@@ -60,7 +61,7 @@ Partial Class RegisterComplaints
         '
         'mlocation
         '
-        Me.mlocation.Location = New System.Drawing.Point(246, 258)
+        Me.mlocation.Location = New System.Drawing.Point(392, 252)
         Me.mlocation.Name = "mlocation"
         Me.mlocation.Size = New System.Drawing.Size(100, 22)
         Me.mlocation.TabIndex = 3
@@ -70,7 +71,7 @@ Partial Class RegisterComplaints
         Me.Button1.BackColor = System.Drawing.SystemColors.HotTrack
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Button1.Location = New System.Drawing.Point(98, 323)
+        Me.Button1.Location = New System.Drawing.Point(165, 372)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(248, 55)
         Me.Button1.TabIndex = 4
@@ -79,7 +80,7 @@ Partial Class RegisterComplaints
         '
         'comments
         '
-        Me.comments.Location = New System.Drawing.Point(403, 164)
+        Me.comments.Location = New System.Drawing.Point(438, 323)
         Me.comments.Name = "comments"
         Me.comments.Size = New System.Drawing.Size(339, 126)
         Me.comments.TabIndex = 5
@@ -88,8 +89,10 @@ Partial Class RegisterComplaints
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(398, 127)
+        Me.Label2.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Label2.Location = New System.Drawing.Point(433, 295)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(324, 25)
         Me.Label2.TabIndex = 6
@@ -98,8 +101,9 @@ Partial Class RegisterComplaints
         'Label5
         '
         Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(94, 152)
+        Me.Label5.Location = New System.Drawing.Point(355, 112)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(137, 24)
         Me.Label5.TabIndex = 9
@@ -109,8 +113,9 @@ Partial Class RegisterComplaints
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(94, 256)
+        Me.Label3.Location = New System.Drawing.Point(397, 224)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(95, 24)
         Me.Label3.TabIndex = 10
@@ -120,8 +125,9 @@ Partial Class RegisterComplaints
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(94, 204)
+        Me.Label4.Location = New System.Drawing.Point(421, 170)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(71, 24)
         Me.Label4.TabIndex = 11
@@ -132,6 +138,8 @@ Partial Class RegisterComplaints
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.ComplaintCrimes.My.Resources.Resources.RegCompBG
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)

@@ -175,5 +175,20 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="src\homeBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\GivenBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\RegCompBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\LoginBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\CHistoryBG.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

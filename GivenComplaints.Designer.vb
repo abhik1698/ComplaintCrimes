@@ -34,77 +34,92 @@ Partial Class GivenComplaints
         '
         'id
         '
-        Me.id.Location = New System.Drawing.Point(226, 96)
+        Me.id.Location = New System.Drawing.Point(210, 48)
         Me.id.Name = "id"
         Me.id.Size = New System.Drawing.Size(100, 22)
         Me.id.TabIndex = 0
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(362, 86)
+        Me.Button1.BackColor = System.Drawing.SystemColors.HotTrack
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Button1.Location = New System.Drawing.Point(338, 29)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(102, 43)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Update"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'mtable
         '
         Me.mtable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.mtable.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
+        Me.mtable.BackgroundColor = System.Drawing.SystemColors.ScrollBar
         Me.mtable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.mtable.Location = New System.Drawing.Point(498, 60)
+        Me.mtable.Location = New System.Drawing.Point(656, 6)
         Me.mtable.Name = "mtable"
         Me.mtable.RowTemplate.Height = 24
-        Me.mtable.Size = New System.Drawing.Size(851, 401)
+        Me.mtable.Size = New System.Drawing.Size(693, 459)
         Me.mtable.TabIndex = 2
         '
         'Arr
         '
         Me.Arr.AutoSize = True
-        Me.Arr.Location = New System.Drawing.Point(139, 173)
+        Me.Arr.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Arr.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Arr.Location = New System.Drawing.Point(274, 98)
         Me.Arr.Name = "Arr"
-        Me.Arr.Size = New System.Drawing.Size(67, 21)
+        Me.Arr.Size = New System.Drawing.Size(74, 22)
         Me.Arr.TabIndex = 3
         Me.Arr.TabStop = True
         Me.Arr.Text = "Arrest"
-        Me.Arr.UseVisualStyleBackColor = True
+        Me.Arr.UseVisualStyleBackColor = False
         '
         'Rel
         '
         Me.Rel.AutoSize = True
-        Me.Rel.Location = New System.Drawing.Point(226, 173)
+        Me.Rel.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Rel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Rel.Location = New System.Drawing.Point(373, 98)
         Me.Rel.Name = "Rel"
-        Me.Rel.Size = New System.Drawing.Size(81, 21)
+        Me.Rel.Size = New System.Drawing.Size(90, 22)
         Me.Rel.TabIndex = 4
         Me.Rel.TabStop = True
         Me.Rel.Text = "Release"
-        Me.Rel.UseVisualStyleBackColor = True
+        Me.Rel.UseVisualStyleBackColor = False
         '
         'Del
         '
         Me.Del.AutoSize = True
-        Me.Del.Location = New System.Drawing.Point(328, 173)
+        Me.Del.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Del.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Del.Location = New System.Drawing.Point(80, 98)
         Me.Del.Name = "Del"
-        Me.Del.Size = New System.Drawing.Size(136, 21)
+        Me.Del.Size = New System.Drawing.Size(158, 22)
         Me.Del.TabIndex = 5
         Me.Del.TabStop = True
         Me.Del.Text = "Delete Complaint"
-        Me.Del.UseVisualStyleBackColor = True
+        Me.Del.UseVisualStyleBackColor = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(226, 60)
+        Me.Label1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label1.Location = New System.Drawing.Point(76, 48)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(75, 17)
+        Me.Label1.Size = New System.Drawing.Size(117, 24)
         Me.Label1.TabIndex = 6
-        Me.Label1.Text = "Criminal ID"
+        Me.Label1.Text = "Criminal ID:"
         '
         'GivenComplaints
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.ComplaintCrimes.My.Resources.Resources.GivenBG
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1361, 473)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Del)
