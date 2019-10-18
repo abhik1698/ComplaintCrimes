@@ -49,6 +49,7 @@ Partial Class SignUp
         '
         Me.pwd.Location = New System.Drawing.Point(537, 389)
         Me.pwd.Name = "pwd"
+        Me.pwd.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.pwd.Size = New System.Drawing.Size(100, 22)
         Me.pwd.TabIndex = 3
         '
