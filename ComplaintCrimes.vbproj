@@ -74,6 +74,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CriminalHistory.Designer.vb">
+      <DependentUpon>CriminalHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CriminalHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GivenComplaints.Designer.vb">
+      <DependentUpon>GivenComplaints.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GivenComplaints.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLogin.Designer.vb">
+      <DependentUpon>PLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
@@ -117,6 +135,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CriminalHistory.resx">
+      <DependentUpon>CriminalHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GivenComplaints.resx">
+      <DependentUpon>GivenComplaints.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLogin.resx">
+      <DependentUpon>PLogin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>

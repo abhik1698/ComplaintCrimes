@@ -12,4 +12,8 @@ Public Class Home
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Login.Show()
     End Sub
+
+    Private Sub psignin_Click(sender As Object, e As EventArgs) Handles psignin.Click
+        PLogin.Show()
+    End Sub
 End Class

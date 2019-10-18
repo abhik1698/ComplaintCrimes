@@ -14,6 +14,7 @@ Public Class Queries
         Catch ex As MySql.Data.MySqlClient.MySqlException
             MessageBox.Show(ex.Message)
         End Try
+        conn.Close()
     End Sub
 
     Public Function Login(q As String) As String
@@ -37,7 +38,7 @@ Public Class Queries
         Catch ex As MySql.Data.MySqlClient.MySqlException
             MessageBox.Show(ex.Message)
         End Try
-
+        conn.Close()
         Return 0
     End Function
 End Class
