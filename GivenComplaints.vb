@@ -48,12 +48,12 @@ Public Class GivenComplaints
             conn2.Open()
             Dim myAdapter As New MySqlDataAdapter
 
-            Dim st As String
+            Dim st As String = "Complaint"
             If Arr.Checked Then
                 st = "Arrested"
             ElseIf Rel.Checked Then
                 st = "Released"
-            Else
+            ElseIf Del.Checked Then
                 st = "Remove"
             End If
             Dim myCommand As New MySqlCommand("update criminals_record set status='" & st & "' where id= '" & id.Text & "' and status<>'released'", conn2)
@@ -86,6 +86,7 @@ Public Class GivenComplaints
                     mtable.Rows.Add(row)
                 End While
             End If
+            MessageBox.Show("Updated Records Successfully...")
             conn2.Close()
         Catch ex As MySql.Data.MySqlClient.MySqlException
             MessageBox.Show(ex.Message)

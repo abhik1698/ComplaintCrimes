@@ -4,15 +4,18 @@ Public Class CriminalHistory
     Dim conn As New MySql.Data.MySqlClient.MySqlConnection("server=127.0.0.1;uid=root;port=3306;database=crime")
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim Q = New Queries
         Dim qry As String = "insert into pusers(uname, name, rank, pwd) values('" & uname.Text & "', '" & pname.Text & "', '" & rank.Text & "', '" & pwd.Text & "')"
-        Q.InsertQuery(qry)
+        Try
+            Dim conn As New MySql.Data.MySqlClient.MySqlConnection("server=127.0.0.1;uid=root;port=3306;database=crime")
+            conn.Open()
 
-        MessageBox.Show("User account Ready to Login!")
-
-
-
-        PLogin.Show()
+            Dim cmd As MySqlCommand = New MySqlCommand(qry, conn)
+            cmd.ExecuteScalar()
+            MessageBox.Show("User account Ready to Login!")
+            conn.Close()
+        Catch ex As MySql.Data.MySqlClient.MySqlException
+            MessageBox.Show("Username Already Exists")
+        End Try
     End Sub
 
     Private Sub CriminalHistory_Load(sender As Object, e As EventArgs) Handles MyBase.Load
