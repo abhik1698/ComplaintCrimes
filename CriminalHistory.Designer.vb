@@ -77,6 +77,7 @@ Partial Class CriminalHistory
         Me.mtable.AllowUserToOrderColumns = True
         Me.mtable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.mtable.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
+        Me.mtable.BackgroundColor = System.Drawing.SystemColors.Highlight
         Me.mtable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.mtable.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.mtable.Location = New System.Drawing.Point(527, 105)

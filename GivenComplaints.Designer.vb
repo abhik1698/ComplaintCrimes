@@ -55,7 +55,7 @@ Partial Class GivenComplaints
         '
         Me.mtable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.mtable.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
-        Me.mtable.BackgroundColor = System.Drawing.SystemColors.ScrollBar
+        Me.mtable.BackgroundColor = System.Drawing.SystemColors.WindowFrame
         Me.mtable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.mtable.Location = New System.Drawing.Point(656, 6)
         Me.mtable.Name = "mtable"

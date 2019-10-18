@@ -45,10 +45,13 @@ Partial Class CMap
         Me.mtable.AllowUserToDeleteRows = False
         Me.mtable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
         Me.mtable.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
+        Me.mtable.BackgroundColor = System.Drawing.SystemColors.Highlight
         Me.mtable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.mtable.GridColor = System.Drawing.SystemColors.HighlightText
         Me.mtable.Location = New System.Drawing.Point(12, 10)
         Me.mtable.Name = "mtable"
         Me.mtable.ReadOnly = True
+        Me.mtable.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.mtable.RowTemplate.Height = 24
         Me.mtable.Size = New System.Drawing.Size(213, 428)
         Me.mtable.TabIndex = 1
