@@ -172,7 +172,7 @@ Partial Class CriminalHistory
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.BackgroundImage = Global.ComplaintCrimes.My.Resources.Resources.CHistoryBG1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(1368, 480)
+        Me.ClientSize = New System.Drawing.Size(1375, 508)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
